@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace leave_managment.Contrct
 {
-    interface ILeaveAllocationRepository : IRepositoryBase<LeaveAllocation>
+   public interface ILeaveAllocationRepository : IRepositoryBase<LeaveAllocation>
     {
 
     }
